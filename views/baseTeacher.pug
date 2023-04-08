@@ -1,0 +1,32 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Allen Digital
+  link(rel='stylesheet' href='../static/styleTeacher.css')
+nav.navbar
+  .logo-container
+    .logo-box
+      img.logo-img.logo(src='../static/THINKFIC/THINKFIC - UI_UX/Logo/Logo - photo.png' alt='')
+      img.logo-text.logo(src='../static/THINKFIC/THINKFIC - UI_UX/Logo/Logo - text.png' alt='')
+      img.exit.logo(src='../static/THINKFIC/THINKFIC - UI_UX/IONIcon/E/exit/default.png' alt='')
+  .user-container
+    .user-box
+      img.user-img(src='../static/THINKFIC/THINKFIC - UI_UX/UI Faces/UI face - 1.png' alt='')
+aside.aside
+  .aside-container
+    .aside-box
+      img.tv(src='../static/THINKFIC/THINKFIC - UI_UX/IONIcon/T/tv/outline.png' alt='')
+      p.live.pImpo
+        a(href='/teacher/live') Live
+      p.recorded.pImpo
+        a(href='/teacher/recorded') Recorded
+      p.doubt.pImpo
+        a(href='/teacher/doubt') Doubt
+      p.set-lectures.pImpo
+        a(href='/teacher/set-lectures') Set Lectures
+      img.folder(src='../static/THINKFIC/THINKFIC - UI_UX/IONIcon/F/folder/open/outline.png' alt='')
+      img.document(src='../static/THINKFIC/THINKFIC - UI_UX/IONIcon/D/document/text/outline.png' alt='')
+
+block content

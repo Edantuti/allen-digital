@@ -1,0 +1,17 @@
+extends baseTeacher.pug 
+
+block content 
+  section.main
+    .set-container  
+        h1 Set your lectures below 
+        form(action="/set", method="post" class="myForm") 
+            input(type="text", class="myInput", name="topic", id="topic" placeholder="Enter your name" )
+            input(type="text", class="myInput", name="desc", placeholder="Enter your phone number")
+            input(type="number", class="myInput", name="date", placeholder="Enter your email ID")
+            input(type="text", class="myInput", name="month", placeholder="Enter your address")
+            input(type="number", class="myInput", name="hour", placeholder="Enter your concern")
+            input(type="number", class="myInput", name="min", placeholder="Enter your concern")
+            input(type="datetime-local", class="myInput", name="fulltime", placeholder="Enter your fullTime")
+            button(class="btn")
+                | Submit
+  script(src='../static/setLectures.js')
