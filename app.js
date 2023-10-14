@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const app = express();
 const port = 80;
 
-app.use('/static', express.static('static'))
+app.use(express.static(__dirname + "/static/"));
 
 app.set('view engine', 'pug')
 
