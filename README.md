@@ -6,3 +6,8 @@ ALLEN DIGITAL is an online platform designed for the ALLEN CAREER INSTITUTE. The
 
 Technologies used-
 Express.js, Mode.js.
+
+App currently only working on local server.
+Click on the guven links to see the glimpse of the website -
+
+https://drive.google.com/file/d/1mG_kUtbvglLK48YbasDzkZ-Lo24arnPT/view?usp=drive_link
